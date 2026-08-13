@@ -1,4 +1,4 @@
-# 🫀 Heart Disease End-to-End Data Analysis
+#  Heart Disease End-to-End Data Analysis
 
 ## 📌 Project Overview
 This project presents a comprehensive, end-to-end data analysis of heart disease risk factors. The objective is to identify key clinical factors associated with the disease and develop an interactive dashboard to visualize insights for healthcare professionals.
@@ -50,3 +50,10 @@ Deep dives into cholesterol (chol) impact, ST depression (oldpeak), slope, and t
 ├── SQLQuery_Heart Disease.sql     # SQL scripts for metrics & queries
 ├── Heart Disease.ipynb            # Python notebook (EDA)
 └── Heart Disease.pbix             # Power BI Interactive Dashboard
+---
+
+## 💡 Strategic Recommendations
+
+1. *High-Risk Symptom Triage (CP & Sex):* Prioritize immediate diagnostic screening for patients presenting with Chest Pain types 1 & 2 (80% and 77% disease rates) and pay special attention to female patients who demonstrate a significantly higher infection/disease rate (72.44%).
+2. *Early Screening for Younger & Atypical Cohorts:* Establish routine cardiovascular risk assessments for patients under 40 years old—who exhibited a high disease rate (73.7%) despite smaller sample representation—to catch early-onset conditions.
+3. *Clinical Diagnostic Thresholds:* Focus clinical evaluations on key biomarkers such as low oldpeak levels (73% rate at 0 depression) and specific thal / slope indicators (slope = 2 at 72.49% and thal = 2 at 75.74%) for high-accuracy risk stratification.
